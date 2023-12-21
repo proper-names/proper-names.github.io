@@ -1,12 +1,3 @@
-/*navbar dropdown*/
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
 
 /*basic JavaScript debounce function as taken from Underscore.js*/
 function debounce(func, wait, immediate) {
