@@ -1,10 +1,6 @@
 
 
 
-@media screen and (min-width: 991px) {
- /* start of desktop styles */
-
-}
 
 @media screen and (min-width: 767px) (max-width: 991px){
 /* start of large tablet styles */
@@ -85,3 +81,19 @@ p{
 .active { 
   color: white;
 } 
+
+
+@media screen and (min-width: 991px) {
+ /* start of desktop styles */
+.invisible{display:inline-grid;}
+td.invisible{width:100%;
+display: flex;
+flex-wrap: wrap;}
+.dotted {border-style: dashed;
+width:initial;
+border-color:#026602;
+border-width: 2px;
+margin: 1px 2px;
+padding: 0 2px;
+}
+}
