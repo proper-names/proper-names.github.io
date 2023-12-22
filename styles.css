@@ -15,6 +15,22 @@ body {
 
 /* start of phone styles */
 
+
+.flex-container-row{
+	
+margin: 0;
+padding: 0;
+display:flex;
+flex-direction: column;}
+
+#whole-page{
+/*margin for the whole page*/
+margin: 35px 10px;}
+.flex-container-column{
+display:flex;
+flex-direction: column;}
+
+
 #search {
   margin: 15px 0 10px 0;
   padding: 2px 3px;
@@ -187,9 +203,9 @@ section
 max-width:600px; }
 
 section > em, li > em{
-font-size:1.1rem;}
+font-size:1.1em;}
 
-
+li{font-size:0.9rem;}
 
 
   table{max-width:100%;
@@ -245,4 +261,22 @@ font-size:1.1rem;}
   .topnav a.icon {
     display: none;
   }
+  
+  /* flex container*/
+  
+  
+.flex-container-row{
+display:flex;
+flex-direction: row;}
+
+
+
+.flex-container-column{ 
+ 
+display:flex;
+flex-direction: column;}
+}
+#whole-page{ 
+/*margin for the whole page*/
+margin: 45px 15px; }
 }
