@@ -3,6 +3,7 @@
 
 html {
   box-sizing: border-box;
+  
 }
 
 body {
@@ -92,15 +93,29 @@ section {
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
   /* start of medium tablet styles */
-	html{font-size:17px;}
+	html{font-size:2.4vw;}
 	 
+  .mobile-container { 
+margin: 15px 10px; 
+max-width:100%;
+  }
+
+section
+{
+max-width:600px; }
+
+section > em, li > em{
+font-size:1.1rem;}
+
+.topnav a{font-size:1.1rem;}
 
 }
 
 
 @media screen and (min-width: 767px) and (max-width: 991px) {
   /* start of large tablet styles */
-
+html{font-size:2.1vw;}
+	 
   #search {
     width: 60%;
     max-width: 400px;
@@ -108,8 +123,8 @@ section {
 
     
 
-  .mobile-container {
-    padding-top: 25px;
+  .mobile-container { 
+    padding-top:40px;
   }
 
 
@@ -121,7 +136,7 @@ section {
   }
 
   .topnav a {
-    font-size: 11px;
+    font-size: 1.3vw;
   }
 
   .topnav #myLinks {
@@ -139,13 +154,20 @@ section {
   .topnav a.icon {
     display: none;
   }
-  
+   
+
+section
+{
+max-width:600px; }
+
+section > em, li > em{
+font-size:1.1rem;}
+
+
   
 }
 
-
-
-
+ 
 
 @media screen and (min-width: 991px) {
 
@@ -156,8 +178,7 @@ section {
 /* every att in malazan names table visible */
 
   .mobile-container { 
-margin: 28px 25px;
-display:static;
+margin: 28px 25px; 
 max-width:100%;
   }
 
@@ -206,7 +227,7 @@ font-size:1.1em;}
   }
 
   .topnav a {
-    font-size: 1.1rem;
+    font-size: 1.4vw;
   }
 
   .topnav #myLinks {

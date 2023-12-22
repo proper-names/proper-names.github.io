@@ -13,3 +13,5 @@ function myFunction() {
   }
 
 }
+/*document.documentElement.style.setProperty('--nav-height', document.getElementById("topnav").outerHeight);*/
+/*doesnt work*/
