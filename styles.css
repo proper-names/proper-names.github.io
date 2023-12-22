@@ -13,6 +13,23 @@ body {
   font-size:0.9rem;
 }
 
+footer {
+ padding: 0px;
+ margin: 0px;
+margin-top:15px;
+width:100%;
+height:8vh; 
+  position: relative;
+  bottom: 0; 
+  background-color: #049104;
+
+}
+footer > div{
+	 padding: 10px 10px;
+}
+
+ 
+  
 /* start of phone styles */
 
 /*search input*/
@@ -101,6 +118,8 @@ flex-direction: column;}
 
 .flex-container-column{
 display:flex;
+margin: 0;
+padding: 0;
 flex-direction: column;}
 
 
@@ -121,6 +140,15 @@ margin: 10px; }
 .flex-container-column ul{
  
 text-align:left;  }
+
+
+#click-me{
+margin-bottom:3vw;}
+#click-me>a{text-decoration: none; color:#018701;padding:20px;}
+
+
+
+
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
   /* start of medium tablet styles */
@@ -151,7 +179,7 @@ margin:0;}
 
 .flex-container-row img{max-width:100%;
 }
-
+  
 
 @media screen and (min-width: 767px) and (max-width: 991px) {
   /* start of large tablet styles */
@@ -205,6 +233,12 @@ section > em, li > em{
 font-size:2vw;}
 
 
+
+#baby-names-column{
+max-width:100%; 
+ }
+#baby-names-column > section{
+text-align:center;  }
 
 }
 
@@ -316,4 +350,17 @@ padding: 0;}
 .flex-container-column h3{
 width:50%; }
 
+.flex-container-column img{
+max-width:100%;}
+
+
+#baby-names-column{
+max-width:50%;  }
+#baby-names-column > section{
+padding-left:25%  }
+ 
+
+
+#lexicon li{
+font-size:initial;}
 }
