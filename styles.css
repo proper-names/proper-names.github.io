@@ -93,7 +93,7 @@ section {
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
   /* start of medium tablet styles */
-	html{font-size:2.4vw;}
+	html{font-size:2.6vw;}
 	 
   .mobile-container { 
 margin: 15px 10px; 
@@ -105,16 +105,16 @@ section
 max-width:600px; }
 
 section > em, li > em{
-font-size:1.1rem;}
+font-size:2.7vw;}
 
-.topnav a{font-size:1.1rem;}
+.topnav a{font-size:2.8vw;}
 
 }
 
 
 @media screen and (min-width: 767px) and (max-width: 991px) {
   /* start of large tablet styles */
-html{font-size:2.1vw;}
+html{font-size:1.9vw;}
 	 
   #search {
     width: 60%;
@@ -161,7 +161,7 @@ section
 max-width:600px; }
 
 section > em, li > em{
-font-size:1.1rem;}
+font-size:2vw;}
 
 
   
