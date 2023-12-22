@@ -72,7 +72,7 @@ section {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 4vw;
   display: block;
 
 }
@@ -187,7 +187,7 @@ section
 max-width:600px; }
 
 section > em, li > em{
-font-size:1.1em;}
+font-size:1.1rem;}
 
 
 
@@ -227,7 +227,7 @@ font-size:1.1em;}
   }
 
   .topnav a {
-    font-size: 1.4vw;
+    font-size: 1.3vw;
   }
 
   .topnav #myLinks {
